@@ -17,6 +17,7 @@
 		<Item Name="currentVariant.vi" Type="VI" URL="../../../learning/LVUexamples/testVIs/currentVariant.vi"/>
 		<Item Name="loadGlobal.vi" Type="VI" URL="../loadGlobal.vi"/>
 		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
+		<Item Name="mainTest.vi" Type="VI" URL="../mainTest.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -491,6 +492,58 @@
 				<Property Name="TgtF_productName" Type="Str">LabVIEW_ConsoleTest0</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B4625DFA-F241-4625-8C37-96D09DCD7FA7}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">LabVIEW_ConsoleTest0.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="mainTest" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A416BD69-9452-475C-8CE9-D71EAA21A1D6}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{CB84ED37-CD61-4E36-8649-605BC6472B1E}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C4D2E04B-1C57-4C6D-8FFA-9D808D08DB13}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">mainTest</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/mainTest</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B79BDD10-E279-4850-982D-EB33CDBE6241}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/mainTest/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/mainTest/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0DEE061B-AB39-46DF-92EF-78CA2E21E131}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/mainTest.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/#include/currentScan.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/#include/speedSet.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/#include/voltageScan.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_companyName" Type="Str">ICON Health &amp; Fitness</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">mainTest</Property>
+				<Property Name="TgtF_internalName" Type="Str">mainTest</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 ICON Health &amp; Fitness</Property>
+				<Property Name="TgtF_productName" Type="Str">mainTest</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5A8B0E74-43FB-443B-B083-A2D093B7BEDA}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="My Installer" Type="Installer">
